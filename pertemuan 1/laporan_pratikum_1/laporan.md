@@ -2,19 +2,29 @@
 
 Hasil Output : 
 1. pemilihan
-<img scr="pemilihan.png">
+
+![pemilihan](https://user-images.githubusercontent.com/90373287/155176607-2e26f295-b347-4c8d-a745-593fbbacdb6a.PNG)
 
 2. Perulangan
-<img src="perulangan.png">
+
+![perulangan](https://user-images.githubusercontent.com/90373287/155176826-a7c04c3c-b204-43fd-b58a-b349a7c1b1bd.PNG)
+
 
 3. Array
-<img src="array.png">
+
+![array](https://user-images.githubusercontent.com/90373287/155176882-b85940b1-3899-45a6-9818-95f473723076.PNG)
+
 
 4. Fungsi
-<img src="fungsi.png">
+
+![fungsi](https://user-images.githubusercontent.com/90373287/155176968-ec4ff2ff-9741-42d4-9d49-3b05644f2b32.PNG)
+
 
 5. Tugas 1
-<img src="tugas1.png">
+
+![tugas1](https://user-images.githubusercontent.com/90373287/155177011-bf2bdecf-5fdb-425d-afdf-9ff8a4cf2c85.PNG)
+
 
 6. Tugas 2
-<img src="tugas2.png">
+
+![tugas2](https://user-images.githubusercontent.com/90373287/155177076-a61b3011-8d9e-44b1-9c2f-47bb0bc82dd3.PNG)
