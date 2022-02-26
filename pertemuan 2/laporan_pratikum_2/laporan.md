@@ -126,6 +126,6 @@ atribut y untuk posisi koordinat y (vertikal)
 
 <img src =hasil2.PNG> 
 
-<img src =hasil3.png>
+<img src =hasil3.PNG>
 
 
