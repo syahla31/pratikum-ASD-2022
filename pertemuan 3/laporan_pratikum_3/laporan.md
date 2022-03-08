@@ -95,11 +95,13 @@ Hasil :
 
    Tambahkan konstruktor pada class Segitiga tersebut yang berisi parameter int a, int t yang masing-masing digunakan untuk mengisikan atribut alas dan tinggi.
 
-    <img src = 3.4-2-jaw.PNG>
+    ![3 4-2-Jaw](https://user-images.githubusercontent.com/90373287/157248107-32af6c9b-6b75-4a4d-a57d-11188384ba96.PNG)
+
 
 3. Tambahkan method hitungLuas() dan hitungKeliling() pada class Segitiga tersebut.
 
-    <img src = 3.4-3-jaw.PNG>
+    ![3 4-3-Jaw](https://user-images.githubusercontent.com/90373287/157248139-21758674-6d09-48b0-8b1e-c99e705f4dda.PNG)
+
 
 4. Pada fungsi main, buat array Segitiga sgArray yang berisi 4 elemen, isikan masing-masing atributnya sebagai berikut:
 
@@ -111,15 +113,18 @@ Hasil :
       
       sgArray ke-3 alas: 25, tinggi: 10
 
-    <img src = 3.4-4-jaw.PNG>
+    ![3 4-4-Jaw](https://user-images.githubusercontent.com/90373287/157248164-cf8e1fd4-dd9b-4957-9bdf-8c90c552526a.PNG)
+
 
 5. Kemudian menggunakan looping, cetak luas dan keliling dengan cara memanggil method hitungLuas() dan hitungKeliling().
 
-    <img src = 3.4-5-jaw.PNG>
+    ![3 4-5-Jaw](https://user-images.githubusercontent.com/90373287/157248269-107db39e-5454-404f-9279-09624b6e6857.PNG)
+
 
    Hasil
 
-   <img src = 3.4-6-jaw.PNG>
+   ![3 4-6-Jaw](https://user-images.githubusercontent.com/90373287/157248288-eab030a8-9a32-4115-b8cf-9cb0c590a7bb.PNG)
+
 
 ### 3.5 Latihan Praktikum
 1. Buatlah program yang dapat menghitung luas permukaan dan volume beberapa bangun ruang (minimal 3, jenis bangun luas bebas). Buatlah 3 (tiga) class sesuai dengan jumlah jenis bangun ruang. Dan buat satu main class untuk membuat array of objek yang menginputkan atribut-atribut yang ada menggunakan konstruktor semua bangun ruang tersebut. Keterangan : Buat looping untuk menginputkan masing-masing atributnya, kemudian tampilkan luas permukaan dan volume dari tiap jenis bangun ruang tersebut.
