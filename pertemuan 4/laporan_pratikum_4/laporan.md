@@ -72,16 +72,13 @@ Syahla' Syafiqah Fayra - (TI - 1F)
 
     Diatas 20 Angka
 
-    <img src = "jawaban 1-5 a.PNG">
-
-
-    <img src = "jawaban 1-5 b.PNG">
-
-
-    <img src = "jawaban 1-5 c.PNG">
-
-
-    <img src = "jawaban 1-5 d.PNG">
+<img src = "jawaban 1-5 a.PNG">
+    
+<img src = "jawaban 1-5 b.PNG">
+    
+<img src = "jawaban 1-5 c.PNG">
+    
+<img src = "jawaban 1-5 d.PNG">
 
     Kesimpulan : Iya memiliki perbedaan waktu eksekusi yang kurang dari 20 lebih cepat daripada yang lebih dari 20
 
@@ -341,8 +338,6 @@ public class MainSum {
 ```
 
     - Hasil Output
-
-<img src = "3 - 4 a.PNG">
 
 <img src = "3 - 5.PNG">
 
