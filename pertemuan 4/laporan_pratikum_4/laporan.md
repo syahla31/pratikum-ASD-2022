@@ -74,11 +74,11 @@ Syahla' Syafiqah Fayra - (TI - 1F)
 
     <img src = "jawaban 1-5 a.PNG">
     
-    <img src = "jawaban 1-5 b.PNG">
+      <img src = "jawaban 1-5 b.PNG">
     
     <img src = "jawaban 1-5 c.PNG">
     
-    <img src = "jawaban 1-5 d.PNG">
+      <img src = "jawaban 1-5 d.PNG">
 
     Kesimpulan : Iya memiliki perbedaan waktu eksekusi yang kurang dari 20 lebih cepat daripada yang lebih dari 20
 
