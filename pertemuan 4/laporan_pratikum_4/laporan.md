@@ -17,19 +17,19 @@ Syahla' Syafiqah Fayra - (TI - 1F)
         
     <img src = "jawaban 1-2 a.PNG">
 
-            Pada percobaan faktorial divide ditujuksn oleh adanya pemecahan masalah yang dibagi menjadi 2 upa – masalah yang ditujukan dengan adanya kondisi if – else dimana id sebagai base case dan else sebagai rekursif call
+        Pada percobaan faktorial divide ditujuksn oleh adanya pemecahan masalah yang dibagi menjadi 2 upa – masalah yang ditujukan dengan adanya kondisi if – else dimana id sebagai base case dan else sebagai rekursif call
 
-        B.	Conquer = memecahkan masing masing upa – masalah secara Rekursif 
+        B.Conquer = memecahkan masing masing upa – masalah secara Rekursif 
 
     <img src = "jawaban 1-2 b.PNG">
 
-            Pada percobaan faktorial conquer ditujukan oleh adanya penyelesain masalah secara rekursif dimana upa – masalah diselesaikan secara masing – masing yang telah di tunjukkan pada kodingan else yang berisi rumus int fakto = n * FaktorialDC(n-1); yang berfungsi yaitu setiap upa – masalah akan dikalikan masing – masing.
+        Pada percobaan faktorial conquer ditujukan oleh adanya penyelesain masalah secara rekursif dimana upa – masalah diselesaikan secara masing – masing yang telah di tunjukkan pada kodingan else yang berisi rumus int fakto = n * FaktorialDC(n-1); yang berfungsi yaitu setiap upa – masalah akan dikalikan masing – masing.
 
-        C.	Combine = Menggabungkan solusi masing – masing upa – masalah sehingga membentuk solusi
+        C.Combine = Menggabungkan solusi masing – masing upa – masalah sehingga membentuk solusi
 
     <img src = "jawaban 1-2 c.PNG">
         
-            Pada percobaan faktorial combine ditujukan oleh adanya penarikan hasil dari keseluruhan yang berupa pengembalian nilai dari proses rekursif pada tahap conquer yang ditulis dengan return fakto; di else dalam method faktorialDC()
+         Pada percobaan faktorial combine ditujukan oleh adanya penarikan hasil dari keseluruhan yang berupa pengembalian nilai dari proses rekursif pada tahap conquer yang ditulis dengan return fakto; di else dalam method faktorialDC()
 
 
 3.	Apakah memungkinkan perulangan pada method faktorialBF() dirubah selain menggunakan for ? Buktikan !
@@ -88,10 +88,10 @@ Syahla' Syafiqah Fayra - (TI - 1F)
         Jawaban : 
 
         a.PangkatBF()
-            method ini menggunakan cara brute force yang proses nya dilakukan dengan perulangan dan awalnya akan dideklarasikan hasil = 1, setelah itu dilakukan perulangan sampai batasnya / pangkat dan proses selanjutnya yaitu perulangan tersebut dilakukan perulangan dari hasil tadi dikali dengan bilangan yang akan dipangkatkan dan berhent jika sudah tidak sesuai dengan syarat yaitu < n sehingga bilangan yang dipangkatkan akan menghasilkan nilai dari hasil pangkatnya
+        method ini menggunakan cara brute force yang proses nya dilakukan dengan perulangan dan awalnya akan dideklarasikan hasil = 1, setelah itu dilakukan perulangan sampai batasnya / pangkat dan proses selanjutnya yaitu perulangan tersebut dilakukan perulangan dari hasil tadi dikali dengan bilangan yang akan dipangkatkan dan berhent jika sudah tidak sesuai dengan syarat yaitu < n sehingga bilangan yang dipangkatkan akan menghasilkan nilai dari hasil pangkatnya
 
-        b.	PangkatDC()
-            method ini menggunakan cara divide conquer yang dilakukan dengan rekursif dan prosesnya dibagi menjadi 3 tahap yaitu :
+        b.PangkatDC()
+        method ini menggunakan cara divide conquer yang dilakukan dengan rekursif dan prosesnya dibagi menjadi 3 tahap yaitu :
         
         * Divide – memecah masalah menggunakan pemilihan if – else
         * Conquer – penyelesaian dari setiap upa – masalah pada else
@@ -280,7 +280,8 @@ public class MainPangkat {
 
 
 3.	Mengapa terdapat formulasi return value berikut ? Jelaskan !
- 
+ ![1](https://user-images.githubusercontent.com/90373287/159505547-434ff7ac-3684-4a5d-aef7-8f9308262dad.PNG)
+
         Jawaban : 
         Untuk mengembalikan hasil dari semua penjumlahan dari 1sum (kiri), rsum (kanan), dan arr[mid] (tengah) sehingga dari semua penjumlahan tersebut bisa dihitung semua keuntungan yang didapat dari perusahaan dalam waktu tertentu
 
