@@ -74,9 +74,12 @@ Syahla' Syafiqah Fayra - (TI - 1F)
 
     <img src = "jawaban 1-5 a.PNG">
 
+
     <img src = "jawaban 1-5 b.PNG">
 
+
     <img src = "jawaban 1-5 c.PNG">
+
 
     <img src = "jawaban 1-5 d.PNG">
 
