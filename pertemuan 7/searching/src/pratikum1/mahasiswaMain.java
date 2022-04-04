@@ -1,0 +1,65 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package pratikum1;
+
+import java.util.Scanner;
+
+/**
+ *
+ * @author acer E5
+ */
+public class mahasiswaMain {
+    public static void main(String[] args) {
+        Scanner s = new Scanner (System.in);
+        Scanner sl = new Scanner (System.in);
+        
+        pencarianMhs data = new pencarianMhs();
+        int jumMhs = 5;
+        
+        System.out.println("-----------------------------------------------------");
+        System.out.println("------------- Masukkan Data Mahasiswa ---------------");
+        
+        for(int i = 0; i < jumMhs; i++){
+            System.out.println("-----------------------------------------------------");
+            System.out.print("NIM\t : ");
+            int nim = s.nextInt();
+            System.out.print("Nama\t : ");
+            String nama = sl.nextLine();
+            System.out.print("Umur\t : ");
+            int umur = s.nextInt();
+            System.out.print("IPK\t : ");
+            double ipk = s.nextDouble();
+            
+            mahasiswa m = new mahasiswa (nim, nama, umur, ipk);
+            data.tambah(m);
+        }
+        
+        System.out.println();
+        System.out.println("Data Keseluruhan Mahasiswa : ");
+        System.out.println("-----------------------------------------------------");
+        data.tampil();
+        
+        System.out.println();
+        System.out.println("Data Mahasiswa setelah di Sorting : ");
+        System.out.println("-----------------------------------------------------");
+        data.bubblesort();
+        data.tampil();
+        
+        System.out.println("");
+        System.out.println("_____________________________________________________");
+        System.out.println("Pencarian Data");
+        System.out.println("");
+        System.out.print("Masukkan NIM Mahasiswa yang dicari : ");
+        int cari = s.nextInt();
+       
+        
+        System.out.println("-----------------------------------------------------");
+        System.out.println("Menggunakan Binary Search");
+        int posisi = data.findBinarySearch(cari, 0, jumMhs - 1);
+        data.tampilPosisi(cari, posisi);
+        data.tampilData(cari, posisi);
+    }
+}
